@@ -1,0 +1,42 @@
+/*CSS DEFAULT RESET*/
+*{
+   padding: 0; 
+   margin:0;
+   box-sizing:border-box;
+}
+:root{
+    --primary: #005555;
+    --secondary : #f7f5f5e1;
+}
+body{
+    padding:20px;
+    background-color: var(--primary);
+    margin:150px 0px;
+    text-align: center;
+    color:var(--secondary);
+    font-family:'Roboto';          
+}
+#music-wave{
+    width:10rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary);
+}
+button{
+    margin-top: 5rem;
+    font-family:system-ui,'Segoe UI';
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    background-color: var(--secondary);
+    padding:.3rem .7rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+
+}
+button:hover{
+    color: rgb(110, 141, 47);
+    transform:scaleX(0.9) scaleY(0.9);  
+}

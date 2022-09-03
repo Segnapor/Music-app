@@ -1,0 +1,77 @@
+/*CSS DEFAULT RESET*/
+*{
+    padding: 0; 
+    margin:0;
+    box-sizing:border-box;
+ }
+ :root{
+     --primary: #005555;
+     --secondary : #f7f5f5e1;
+ }
+ body{
+   
+    background-color: var(--primary);
+    font-family:'Roboto'; 
+    color: var(--secondary);
+}
+nav{
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#wifi{
+    padding:0px 10px;
+}
+h3{
+    padding-left: 40px;
+}
+header{
+      margin:0px 90px 30px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+.music-face{
+    padding: 40px;
+    overflow-x: scroll;
+    display: flex;
+   justify-content:space-between;
+}
+#rect{
+    margin:5px;
+    height: 130px;
+    border-radius: 10px;
+}
+#fav-art{
+    height: 100px;
+    margin:3px;
+}
+#rect:hover, #fav-art:hover{
+    transform:scaleX(0.9) scaleY(0.9);   
+}
+.sect3-fig{
+    overflow-x: hidden;
+    padding: 40px;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#new-release{
+    width:305px;
+    height: 170px;
+    border-radius: 20px;
+    margin:3px 0px;
+
+}
+footer{
+    background-color: #fff;
+}
+#foot-text{
+    color:var(--primary)
+}
+a{
+    text-decoration: none;
+    color: var(--primary);
+    cursor:pointer;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="./login.css">
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+</head>
+<body>
+    <nav>
+        <figure>
+            <img src="./images/10_15pm.png">
+        </figure>
+        <figure id="wifi-battery">
+            <img src="./images/ant-design_wifi-outlined.png" id="wifi">
+            <img src="./images/bi_battery-full.png">
+        </figure>
+      </nav> 
+      <main>
+        <form>
+            <h2 class="Signup-text">Log In</h2>
+            <input type="email" class="email-input" placeholder="Email address" required><br>
+            <input type="password" class="password-input" placeholder="Password" required><br>
+             <button type="submit" onclick="myfunction()" class="btn">Log in</button>
+            <p class="form-text"> <span> <a href="#">Forgot Password?</a></span></p>
+              <br><br>
+            <p class="form-text">Or</p><br>
+            <h3 class="form-text">Log In with</h3><br><br>
+            <figure class="form-links">
+               <a><img src="./images/flat-color-icons_google-removebg-preview.png" id="google"></a>
+               <a><img src="./images/logos_facebook.png" id="facebook"></a>
+            </figure><br><br>
+            <p class="form-text">Don't have an account? <span><a href="signUp.html">Create an account</a></span></p>
+        </form>
+      </main> 
+      <script>
+        function myfunction (){
+          window.location.href="./home.html";
+        }
+      </script>  
+</body>
+</html>

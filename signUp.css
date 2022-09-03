@@ -1,0 +1,66 @@
+*{
+    padding: 0; 
+    margin:0;
+    box-sizing:border-box;
+ }
+ :root{
+     --primary: #005555;
+     --secondary : #f7f5f5e1;
+     --inter: rgba(128, 128, 128, 0.192);
+     --deep-inter:  #757575;
+ }
+ body{
+    padding: 40px;
+    background-color: var(--secondary);
+    font-family:'Roboto';
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#wifi{
+    padding:0px 10px;
+}
+main{
+    text-align: center;
+    margin:50px 10px;
+}
+.Signup-text{
+    color: var(--primary);
+}
+input{
+    margin:10px 0px;
+    background-color: var(--inter);
+    width:17rem;
+    padding: 7px;
+    border-radius: 10px;
+    border:1px solid var(--inter);
+}
+button{
+    margin:15px 0px;
+    width:17rem;
+    padding: 7px;
+    border-radius: 10px;
+    border:1px solid var(--primary);
+    background-color: var(--primary);
+    color:var(--secondary)
+}
+span{
+    color:var(--primary)
+}
+#google, #facebook{
+    width:30px;
+}
+.form-text{
+    color:var(--deep-inter);
+    font-weight: 500;
+}
+a{ color:var(--primary);
+    text-decoration: none;
+    cursor: pointer;
+}
+button:hover{
+    color: rgb(110, 141, 47);
+    transform:scaleX(0.9) scaleY(0.9);  
+}
