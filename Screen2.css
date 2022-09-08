@@ -4,34 +4,43 @@
     box-sizing:border-box;
  }
  :root{
+    --white:white;
      --primary: #005555;
      --secondary : #f7f5f5e1;
-     --anat:#757575;
+     --anat:#616161;
+     --forty:#212121;
  }
  body{
     text-align: center;
     background-color: var(--secondary);
     font-family: 'Roboto';
+    width:100vw;
  }
  #headphone{
-    width: 20rem;
+    width: 23rem;
     margin-top: 60px;
  }
  a{
+    
     text-decoration: none;
-    color: var(--secondary);
+    color: var(--white);
+    font-family: 'Roboto';
+    font-size:18px;
+    font-weight: 300;
 }
 p{
-    color: var(--anat)
+    color: var(--anat);
+    font-size:14px;
+    font-weight: 100;
+}
+h1{
+    color:var(--anat);
 }
 button{
-    margin-top:3rem;
-    font-family:system-ui,'Segoe UI';
-    font-size: 1.2rem;
-    border-radius: 1rem;
+    margin-top:2rem;
+    border-radius: 18px;
     background-color: var(--primary);
-    padding:.3rem 5rem;
-    font-weight: 600;
+    padding:.8rem 7rem;
     cursor: pointer;
     border: none;
     color:var(--secondary);

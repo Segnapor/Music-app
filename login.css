@@ -4,15 +4,19 @@
     box-sizing:border-box;
  }
  :root{
-     --primary: #005555;
-     --secondary : #f7f5f5e1;
-     --inter: rgba(128, 128, 128, 0.192);
-     --deep-inter:  rgba(128, 128, 128, 0.836);
+    --primary: #005555;
+    --secondary : #f7f5f5e1;
+    --inter: rgba(128, 128, 128, 0.192);
+    --deep-inter:  #757575;
+    --es:#e0e0e09f;
+    --bd:#9e9e9e;
  }
  body{
     padding: 40px;
     background-color: var(--secondary);
     font-family:'Roboto';
+    width: 100vw;
+    height:100vh;
 }
 nav{
     display: flex;
@@ -30,31 +34,44 @@ main{
     color: var(--primary);
 }
 input{
-    margin:10px 0px;
-    background-color: var(--inter);
-    width:17rem;
-    padding: 7px;
-    border-radius: 10px;
+    width: 100%;
+    margin:20px 0px 17px 0px;
+    background-color:var(--es);
+    padding:.8rem 7rem .8rem .9rem;
+    border-radius: 14px;
     border:1px solid var(--inter);
+    font-family: 'roboto';
+    font-size: 17px;
+    border:1px solid var(--bd);
+    font-weight:500;
 }
 button{
-    margin:15px 0px;
-    width:17rem;
-    padding: 7px;
-    border-radius: 10px;
+    padding:13px 100px;
+    margin:30px 0px 10px 0px;    
+    border-radius: 18px;
     border:1px solid var(--primary);
     background-color: var(--primary);
-    color:var(--secondary)
+    color:var(--secondary);
+    font-family:'roboto';
+    font-size: 19px;
+    color:white;  
+    width: 100%;  
 }
+
 span{
-    color:var(--primary)
+    color:var(--primary);
+    font-weight:700;
 }
 #google, #facebook{
-    width:30px;
+    width:35px;
+    margin:0px 5px;
+}
+#log{
+    font-weight: 500;
 }
 .form-text{
-    color:var(--deep-inter);
-    font-weight: 700;
+    color:var(--bd);
+    font-weight: 100;
 }
 a{ color:var(--primary);
     text-decoration: none;
@@ -62,5 +79,12 @@ a{ color:var(--primary);
 }
 button:hover{
     color: rgb(110, 141, 47);
-    transform:scaleX(0.9) scaleY(0.9);  
+    transform:scaleX(0.9) scaleY(0.9); 
+    cursor: pointer; 
+}
+@media only screen and (min-width:450px) {
+    body{
+    margin:auto;
+    width:50%;
+    }
 }

@@ -11,112 +11,129 @@
      --deepgrey:#757575;
  }
  body{
-    font-family:'Roboto'; 
- 
+    font-family:'Roboto';  
 }
-nav{
-    margin:0;
-    padding: 30px;
+#guitarman{
+    background-image:linear-gradient(45deg,#0055559f,#00555515) ,url(./images/Rectangle\ 8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 329px;
+}
+.access{
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    padding: 20px;
+}
+  #arrdwn{
+    padding:0px 20px;
+    transform: rotate(-90deg);
+  }
+  .clasplay{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-top: -10px;
+  }
+  #bi-play{
+    width: 70px;
+    padding-right: 20px;
+    margin-top: -15px;
+  }
+  h1{
+    padding:0px 25px;
+    color: white;
+    letter-spacing: 2px;
+    font-size:25px;
+  }
+  .collection{
+    padding:20px 30px;
+  }
+  #lovsongs{
+    color: #000000;
+    font-size: 18px;
+    font-family: 'Roboto';
+    padding-bottom: 3px;
+  }
+  #songs{
+    color:#bdbdbd;
+  }
+  #coverart{
+    padding-bottom: 5px;
+    color: #757575;
+  }
+  #picpplay{
+    background: url(./images/Ellipse\ 1.png);
+    height:100px;
+    background-repeat: no-repeat;
+    padding: 27px;
+  }
+  #picpplay1{
+    background: url(./images/Ellipse\ 2.png);
+    height:100px;
+    background-repeat: no-repeat;
+    padding: 27px;
+  }
+  #picpplay2{
+    background: url(./images/Ellipse\ 3.png);
+    height:100px;
+    background-repeat: no-repeat;
+    padding: 27px;
+  }
+  #picpplay3{
+    background: url(./images/Ellipse\ 4.png);
+    height:100px;
+    background-repeat: no-repeat;
+    padding: 27px;
+  }
+  #h3{
+    color: #757575c9; 
+    font-weight: 100;
+  }
+  #picplay{
+    height: 40px;
+  }
+  #pictext{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width:72%;
+  }
+  #playsec{
     display: flex;
     justify-content: space-between;
     align-items: center;
- 
-}
-#cover{
-    color:var(--deepgrey);
-}
-#cover1{
-    color:var(--grey);
-}
-#wifi{
-    padding:0px 10px;
-}
-.rec8{
- background:linear-gradient(217deg, rgba(0, 128, 0, 0.205),rgba(255, 255, 255, 0.377)),
-  url(./images/Rectangle\ 8.png);
- background-repeat: no-repeat;
- background-position: center;
- background-size:auto;
- height: 626px;
- margin-top: -150px;
-}
-#wifi-battery{
-    margin-top:-250px;
-}
-#time{
-    margin-top:-250px; 
-}
-.classical{
-   margin-top:-230px;
-   display: flex;
-   justify-content: space-evenly;
-   align-items: center;
-}
-#play{
-width:60px;
-}
-h2{
-    color: var(--secondary);
-}
-footer{
-    background-color:var(--primary);
-}
-#foot-text{
-    color:var(--secondary)
-}
-#icon{
-    background-color: var(--secondary);
-    border-radius: 50%;
-    padding:4px;
-}
-a{
+    padding:10px 25px;
+  }
+  #span{
+    font-size:40px; 
+  }
+  #icon{
+     background-color: white;
+     padding-left:3px ;
+  }
+ a{
     text-decoration: none;
-    color: var(--secondary);
-    cursor:pointer;
-}
-.col-18{
-    margin:30px;
-    
-}
-.songs{
+    color: white;
+    font-size: small;
+ }
+nav{
+    border-radius:18px;
+    margin:0;
+    padding:8px 30px;
     display: flex;
-    justify-content: space-around;
-    padding:7px 0px 0px 0px;
+    justify-content: space-between;
     align-items: center;
 }
-.beggie{
-    background: url(./images/Ellipse_1-removebg-preview.png);
-  height:100px;
-  width:100px;
-  background-repeat: no-repeat;
-  padding: 30px;
-   position: relative
+
+footer{
+    position: sticky;
+    bottom: 0;
+    background-color: #005555;
 }
-.Aaliyah{
-    background:url(./images/Ellipse_2-removebg-preview.png);
-    height:100px;
-  width:100px;
-  background-repeat: no-repeat;
-  padding: 30px;
-   position: relative
-}
-.Moon{
-    background:url(./images/Ellipse\ 3.png);
-    height:100px;
-    width:100px;
-    background-repeat: no-repeat;
-    padding: 30px;
-     position: relative;
-}
-.Con{
-    background:url(./images/Ellipse\ 4.png);
-    height:100px;
-    width:100px;
-    background-repeat: no-repeat;
-    padding: 30px;
-     position: relative;
-}
-#plaay{
-    width:40px;
-   position: relative;
+@media only screen and (min-width:450px) {
+    body{
+    margin:auto;
+    width:50%;
+    }
 }
