@@ -1,0 +1,26 @@
+/*CSS DEFAULT RESET*/
+*{
+   padding: 0; 
+   margin:0;
+   box-sizing:border-box;
+}
+:root{
+    --primary: #005555;
+    --secondary : #f7f5f5e1;
+}
+body{
+    padding:20px;
+    background-color: var(--primary);
+    margin:150px 0px;
+    text-align: center;
+    color:var(--secondary);
+    font-family:'Roboto';          
+}
+#music-wave{
+    width:10rem;
+}
+
+a{
+    text-decoration: none;
+    color: var(--primary);
+} 

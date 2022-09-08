@@ -1,0 +1,97 @@
+/*CSS DEFAULT RESET*/
+*{
+    padding: 0; 
+    margin:0;
+    box-sizing:border-box;
+ }
+ :root{
+     --primary: #005555;
+     --secondary : #f7f5f5e1;
+ }
+ body{
+   
+    background-color: var(--primary);
+    font-family:'Roboto'; 
+    color: var(--secondary);
+    width:100vw;
+}
+nav{
+    padding: 10px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#wifi{
+    padding:0px 10px;
+}
+h3,h2{
+    padding-left: 20px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    color: white;   
+}
+header{
+    margin:5px 0px 39px -5px;
+    display: flex;
+    justify-content: space-around;
+    width:69%;
+}
+.music-face{
+    padding: 14px;
+    overflow-x:hidden;
+    display: flex;
+   justify-content:space-between;
+}
+#favv{
+    padding-left: 20px;
+}
+#rect{
+    margin:5px 13px 5px 5px;
+    height: 145px;
+    width:145px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+#fav-art{
+    height: 85.5px;
+    margin:3px 17px 3px 3px;
+}
+p{
+ font-size:13px;
+ padding-left: 8px;
+}
+#rect:hover, #fav-art:hover{
+    transform:scaleX(0.9) scaleY(0.9);   
+}
+.sect3-fig{
+   overflow: hidden;
+    flex-wrap: wrap;
+    padding:14px 27px;
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+#new-release{
+    width:305px;
+    height: 170px;
+    border-radius: 20px;
+    margin:3px 17px 3px 3px;
+    object-fit: cover;
+
+}
+footer{
+    background-color: #fff;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+#foot-text{
+    color:var(--primary)
+}
+a{
+    text-decoration: none;
+    color: var(--primary);
+    cursor:pointer;
+}
+
